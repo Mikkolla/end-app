@@ -1,0 +1,14 @@
+.logo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+
+
+  @include tablet {
+    display: grid;
+    justify-content: center;
+    margin-top: 50rem;
+    margin-bottom: 50rem;
+  }
+}

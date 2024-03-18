@@ -1,0 +1,47 @@
+// breakpoints
+$desktop: 1500px;
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-800: 800px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-sm: 390px;
+
+:root {
+  --ff: "Inter", sans-serif;
+  --transition: 0.3s all ease-in-out;
+
+  // color
+
+  --White-background: #fff;
+  --Background: #f0f0f6;
+  --White-font: #fafafa;
+  --Gray: #e4e6eb;
+  --Form-input: #f0f0f6;
+  --Paragraph-Font: #767676;
+
+  --Yellow: #ffb400;
+  --Yellow-2: rgba(255, 180, 0, 0.95);
+  --Available: #7eb942;
+
+  --Black: #2b2b2b;
+  --dark-background: #18191a;
+  --dark-view-1: #242526;
+  --dark-view-2: #3a3b3c;
+
+  // font
+  --Paragraph_Progress-15: 400 15rem/160% var(--ff);
+  --H1: 700 48rem/124% var(--ff);
+  --H2: 700 32rem/123.6% var(--ff);
+  --H3: 600 24rem/123.6% var(--ff);
+  --H4: 500 18rem/123.6% var(--ff);
+  --H5: 500 18rem/123% var(--ff);
+  --H6: 400 16rem/150% var(--ff);
+  --btn-main: 500 16rem var(--ff);
+  --Button-price: 700 14rem / normal var(--ff);
+  --Button-form: 600 14rem / normal var(--ff);
+
+  @include tablet {
+    --H1: 700 35rem/124% var(--ff);
+  }
+}

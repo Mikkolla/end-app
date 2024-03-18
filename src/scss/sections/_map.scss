@@ -1,0 +1,12 @@
+.map {
+  max-width: 970rem;
+  height: 300px;
+  @include tablet {
+    height: 700px;
+  }
+
+  @include mobile {
+    max-width: 500rem;
+    padding: 15px;
+  }
+}
